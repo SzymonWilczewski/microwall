@@ -1,0 +1,27 @@
+{
+  "name": "frontend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "vite"
+  },
+  "dependencies": {
+    "@formkit/vue": "^1.0.0-beta.2",
+    "autolinker": "^3.14.3",
+    "axios": "^0.25.0",
+    "socket.io-client": "^4.4.1",
+    "vue": "^3.2.25",
+    "vue-router": "4",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.0.0",
+    "flowbite": "^1.3.2",
+    "vite": "^2.7.2",
+    "vite-plugin-windicss": "^1.6.3",
+    "windicss": "^3.4.3"
+  }
+}
